@@ -1,7 +1,7 @@
 # SpectralClustering
 This class is an implementation of the spectral clustering algorithm. The class includes two main methods: fit and predict.
 
-## /__init__/
+## `__init__`
 In the constructor __init__, you can pass the number of clusters you want to see as a result of the clustering algorithm. This number is stored in the n_clusters variable.
 
 The gaussian_kernel method computes the Gaussian similarity matrix of the data. Given a data matrix X, it calculates the pairwise distance between all data points and returns a matrix of weights that are based on the Euclidean distance between each pair of data points.
