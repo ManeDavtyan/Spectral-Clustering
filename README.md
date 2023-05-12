@@ -1,11 +1,13 @@
 # SpectralClustering
-Implemented spectral clustering algorithm. The model includes fit and predict methods. For calling both of them you need to provide the data , like fit(X) or predict(X). But in general to call the class you need to provide a number of clusters k you want to see as a result of this clustering algorithm. 
+Implemented spectral clustering algorithm. The model includes fit and predict methods. For calling both of them you need to provide your data , like fit(X) or predict(X) where X is the matrix of data points. But in general to call the class you need to provide a number of clusters k you want to see as a result of this clustering algorithm. 
 
 Here is an example of calling the class.
 
-sc = SpectralClustering(8)
-sc.fit(X)
-sc.predict(X)
+*sc = SpectralClustering(8)
+
+*sc.fit(X)
+
+*sc.predict(X)
 
 
 ## Fit
